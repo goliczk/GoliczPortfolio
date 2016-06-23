@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+* { 
+	background-color:#F6FDFC;
+	
+}
+@font-face {
+	font-family: 'Jura-Medium';
+	src:url(Jura-Medium.otf);
+}
+h1 {
+	letter-spacing:.2em;
+	font-family: Jura-Medium, Constantia, serif;
+	
+}
+.WD {
+	background-color:#55F0D1;
+	
+}
+body {
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:#010B15;
+	align-content:center;
+}
+table {
+	align-content:center;
+	
+}
+p { align-content:center;
+}
+
+fieldset {
+	width:350px;
+	border:groove;
+	border-radius:11px;
+	align-content:center;
+	background-color:#78DCDD;
+	
+}
+
+input[type="Submit"] {
+	background-color:#000C0F;
+	color:#CFF3F8;
+	border-radius:20px;
+	cursor:pointer;
+ }
+ input[type="Submit"]:hover {
+	 background-color:#CFF3F8;
+	 color:#000000;
+ }
+
+img {
+	width: 250px;
+	height:200px;
+	padding-right: 10px;
+	border: 1px;
+	border-radius: 25px;
+}
+ul {
+	list-style-type:square;
+}
+.jobs {
+	background-color:#7FF7D3;
+}
+a {
+	color:#38DBC9;
+	
+}
+a:hover {
+	color:#023534;
+}
+.background {
+	position:relative;
+	overflow:hidden;
+}
+.background blockquote {
+	position:relative;
+	z-index:2;
+
+}
+.background img {
+	position: absolute;
+    width: 100%;
+    height: 205px;
+    opacity: 0.5;
+	border-radius:0;
+}
+
+
